@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 922px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width: 100%;
+      height: 70%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>Rush Hour Series</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="https://didyouseethatone.files.wordpress.com/2018/06/rush-hour-1-1.jpg" alt="Rush Hour 1">
+        <h3>Rush Hour 1</h3>
+        <p>When a Chinese diplomat's daughter is kidnapped in Los Angeles, he calls in Hong Kong Detective Inspector Lee
+        to assist the FBI with the case. But the FBI doesn't want anything to do with Lee, and they dump him off on the
+        LAPD, who assign wisecracking Detective James Carter to watch over him. Although Lee and Carter can't
+        stand each other, they choose to work together to solve the case on their own when they figure out they've been ditched
+        by both the FBI and police.
+        </p>
+      </div>
+      <div class="column">
+        <img src="https://flxt.tmsimg.com/assets/p28145_p_v8_an.jpg" alt="Rush Hour 2">
+        <h3>Rush Hour 2</h3>
+        <p>After an explosion at the US Embassy in Hong Kong kills two customs agents investigating currency smuggling, Inspector
+        Lee and James Carter search for the mastermind. Ricky Tan, head of the
+        Fu-Cang-Long Triad, sends out his minions to insure that Carter and Lee don't solve the case.
+        </p>
+      </div>
+      <div class="column">
+        <img src="https://picfiles.alphacoders.com/121/thumb-121290.jpg" alt="Rush Hour 3">
+        <h3>Rush Hour 3</h3>
+        <p>East meets West again when the assassination of Ambassador Han leads to the reunion of Lee and Carter.
+        In Paris, the pair must stay one step ahead of Chinese gangsters, and Lee's childhood friend,
+        they track down an envelope containing the identity of a powerful crime lord.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
